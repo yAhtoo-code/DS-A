@@ -34,8 +34,8 @@ print("1.) Compute the Total for CartID 201.")
 first_cart_id = list(carts.keys())[0]
 cart1 = carts[first_cart_id]  
 total1 = (cart1["ItemPrice1"] * cart1["ItemQty1"] +
-         cart1["ItemPrice2"] * cart1["ItemQty2"] +
-         cart1["ItemPrice3"] * cart1["ItemQty3"])
+          cart1["ItemPrice2"] * cart1["ItemQty2"] +
+          cart1["ItemPrice3"] * cart1["ItemQty3"])
 print(f"The Total of Cart {first_cart_id} is {total1}")
 print("")
 
