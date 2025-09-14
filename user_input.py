@@ -5,7 +5,7 @@ def clear_screen():
 
 print("Shopping Cart Inventory")
 print("--------------------------------------------------")
-number_of_carts = int(input("How many carts do you want to input? "))
+number_of_carts = int(input("How many carts do you want to input?\n"))
 clear_screen()
 
 carts = {}
@@ -14,11 +14,11 @@ for i in range(1, number_of_carts + 1):
     cart_id = input(f"Enter Cart ID for cart {i}: ")
 
     ItemPrice1 = float(input("Enter Item 1 Price: "))
-    ItemQty1 = int(input("Enter Item 1 Quantity: "))
+    ItemQty1 =  int(input("Enter Item 1 Quantity: "))
     ItemPrice2 = float(input("Enter Item 2 Price: "))
-    ItemQty2 = int(input("Enter Item 2 Quantity: "))
+    ItemQty2 =  int(input("Enter Item 2 Quantity: "))
     ItemPrice3 = float(input("Enter Item 3 Price: "))
-    ItemQty3 = int(input("Enter Item 3 Quantity: "))
+    ItemQty3 =  int(input("Enter Item 3 Quantity: "))
     clear_screen()
 
     carts[cart_id] = {
